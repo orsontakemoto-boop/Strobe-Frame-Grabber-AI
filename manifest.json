@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "TubeFrame Grabber AI",
+  "version": "1.0",
+  "description": "Capture frames from YouTube videos automatically and analyze them with AI.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://www.youtube.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["main.js"],
+      "css": ["main.css"]
+    }
+  ],
+  "action": {
+    "default_popup": "index.html"
+  }
+}

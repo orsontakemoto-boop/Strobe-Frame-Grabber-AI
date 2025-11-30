@@ -1,0 +1,5 @@
+{
+  "name": "Video Frame Grabber AI",
+  "description": "An automated video frame capture tool designed for Chrome/Edge extension logic. Captures frames at set intervals and analyzes them using Gemini AI.",
+  "requestFramePermissions": []
+}
