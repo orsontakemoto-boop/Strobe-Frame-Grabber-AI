@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "TubeFrame Grabber AI",
+  "name": "StrobeFrame Grabber AI",
   "version": "1.0",
   "description": "Capture frames from YouTube videos automatically and analyze them with AI.",
   "permissions": [

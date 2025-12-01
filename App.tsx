@@ -280,7 +280,7 @@ const App: React.FC = () => {
       <header className="h-16 border-b border-[#272727] flex items-center px-6 bg-[#0f0f0f] sticky top-0 z-50">
         <div className="flex items-center gap-2">
            <Clapperboard className="text-yt-red w-6 h-6" />
-           <h1 className="text-xl font-bold tracking-tight">TubeFrame <span className="text-gray-400 font-normal">Grabber AI</span></h1>
+           <h1 className="text-xl font-bold tracking-tight">StrobeFrame <span className="text-gray-400 font-normal">Grabber AI</span></h1>
         </div>
         <div className="ml-auto flex items-center gap-4 text-xs text-gray-500">
            <span>v2.6 Stable</span>
