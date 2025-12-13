@@ -3,7 +3,6 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig(({ mode }) => {
   // Carrega variáveis de ambiente (como API_KEY) para uso no código
-  // Fix: Cast process to any to avoid "Property 'cwd' does not exist on type 'Process'"
   const env = loadEnv(mode, (process as any).cwd(), '');
   return {
     plugins: [react()],
