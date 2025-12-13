@@ -1,21 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-  <!-- Background Container -->
-  <rect width="100" height="100" rx="22" fill="#0f0f0f"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Top part (Clapper) -->
+  <path d="M4 11v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8H4Z" fill="#0F0F0F" />
+  <path d="m4 11 16-6.6a2 2 0 0 0-1.2-2.6l-2.4-.8a2 2 0 0 0-2.6 1.2l-1.6 4.3" fill="#FF0000" stroke="#FF0000"/>
   
-  <!-- Outer Lens Ring -->
-  <circle cx="50" cy="50" r="38" stroke="#333333" stroke-width="6" fill="#1a1a1a"/>
+  <!-- Stripes on the top part -->
+  <path d="m8.9 5.2 1.6 4.3" stroke="#0F0F0F" />
+  <path d="m14.5 3.2 1.6 4.3" stroke="#0F0F0F" />
   
-  <!-- Inner Lens Detail (Shutter Blades hint) -->
-  <circle cx="50" cy="50" r="28" stroke="#2a2a2a" stroke-width="2" fill="none" opacity="0.5"/>
-  
-  <!-- Recording/Capture Indicator (Red Dot) -->
-  <circle cx="50" cy="50" r="16" fill="#FF0000">
-    <animate attributeName="opacity" values="1;0.8;1" dur="2s" repeatCount="indefinite" />
-  </circle>
-  
-  <!-- Strobe/Flash Reflection -->
-  <path d="M60 30 Q65 30 62 40" stroke="white" stroke-width="3" stroke-linecap="round" opacity="0.4"/>
-  
-  <!-- Crosshairs -->
-  <path d="M50 12 L50 20 M50 80 L50 88 M12 50 L20 50 M80 50 L88 50" stroke="#444" stroke-width="4" stroke-linecap="round"/>
+  <!-- Bottom part container -->
+  <rect x="4" y="11" width="16" height="9" rx="2" stroke="#FF0000" fill="none"/>
 </svg>
