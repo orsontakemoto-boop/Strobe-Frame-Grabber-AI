@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Background Container -->
+  <rect width="100" height="100" rx="22" fill="#0f0f0f"/>
+  
+  <!-- Outer Lens Ring -->
+  <circle cx="50" cy="50" r="38" stroke="#333333" stroke-width="6" fill="#1a1a1a"/>
+  
+  <!-- Inner Lens Detail (Shutter Blades hint) -->
+  <circle cx="50" cy="50" r="28" stroke="#2a2a2a" stroke-width="2" fill="none" opacity="0.5"/>
+  
+  <!-- Recording/Capture Indicator (Red Dot) -->
+  <circle cx="50" cy="50" r="16" fill="#FF0000">
+    <animate attributeName="opacity" values="1;0.8;1" dur="2s" repeatCount="indefinite" />
+  </circle>
+  
+  <!-- Strobe/Flash Reflection -->
+  <path d="M60 30 Q65 30 62 40" stroke="white" stroke-width="3" stroke-linecap="round" opacity="0.4"/>
+  
+  <!-- Crosshairs -->
+  <path d="M50 12 L50 20 M50 80 L50 88 M12 50 L20 50 M80 50 L88 50" stroke="#444" stroke-width="4" stroke-linecap="round"/>
+</svg>

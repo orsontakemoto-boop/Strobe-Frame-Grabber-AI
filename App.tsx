@@ -27,7 +27,7 @@ const App: React.FC = () => {
   // State
   const [videoSrc, setVideoSrc] = useState<string | null>(null);
   const [isCapturing, setIsCapturing] = useState(false);
-  const [interval, setInterval] = useState(30);
+  const [interval, setInterval] = useState(5);
   const [frames, setFrames] = useState<CapturedFrame[]>([]);
   const [capturedCount, setCapturedCount] = useState(0);
   
